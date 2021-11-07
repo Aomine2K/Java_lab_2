@@ -11,12 +11,26 @@ public class Main {
         /* zad.1 napisać program który przyjmuje jedną liczbę od użytkownika z klawiatury
           i za pomocą switch case default ma określić czy:
           a) ta liczba jest parzysta --> podpowiedz switch(a % 2) {
-          b) program który określi czy liczba jest podzielna przez 7
          */
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Podaj liczbę: " );
         int liczba = scan.nextInt();
+        scan.close();
+
+        switch (liczba % 2) {
+
+            case 0:
+                System.out.println("Parzysta");
+                break;
+            default :
+                System.out.println("Nie parzysta");
+                break;
+
+        }
+        /*
+        b) program który określi czy liczba jest podzielna przez 7
+        */
 
 
         /* zad.2
