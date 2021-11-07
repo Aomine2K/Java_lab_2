@@ -33,7 +33,7 @@ public class Main {
 
         /*
         b) program który określi czy liczba jest podzielna przez 7
-        */
+
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Podaj liczbę: " );
@@ -49,6 +49,8 @@ public class Main {
                 System.out.println("Nie podzielne przez 7");
                 break;
         }
+        */
+
         /* zad.2
            a) napisać program podobny do programu z przykładu, który ma zliczyć iloś liter 'o', 'p', 'x', 'z', 'q' w wyrazie:
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
