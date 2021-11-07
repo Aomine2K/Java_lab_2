@@ -13,6 +13,10 @@ public class Main {
           a) ta liczba jest parzysta --> podpowiedz switch(a % 2) {
           b) program który określi czy liczba jest podzielna przez 7
          */
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Podaj liczbę: " );
+        int liczba = scan.nextInt();
 
 
         /* zad.2
