@@ -70,20 +70,20 @@ double[] tablica = new double[5];
         /*
 
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
-        */
-        int[] tablica = new int[5];
-        tablica[0] = 1;
-        tablica[1] = 2;
-        tablica[2] = 3;
-        tablica[3] = 4;
-        tablica[4] = 5;
+
+        String[] tablica = new String[5];
+        tablica[0] = "1";
+        tablica[1] = "2";
+        tablica[2] = "3";
+        tablica[3] = "4";
+        tablica[4] = "5";
 
         int i = 5;
         while (i-- >= 0) {
 
             System.out.println(tablica[i]);
         }
-
+*/
 
 
 
