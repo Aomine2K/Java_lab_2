@@ -14,9 +14,15 @@ public class Main {
         */
         /*
         b) w drugiej pętli continue
+
+        for (int i = 0; i < 5; i++) {
+            if (i == 2) {
+                continue;
+            }
+            System.out.println(i);
+        }
         */
-
-
+        /*
         c) w trzeciej pętli return
         */
 
