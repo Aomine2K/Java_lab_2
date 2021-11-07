@@ -25,23 +25,37 @@ public class Main {
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
          * za pomocą pętli forEach powiększone o 11 */
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Podaj liczbę");
-        int num = scan.nextInt();
-        scan.close();
 
-        System.out.println(num);
+
+
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Podaj liczbę 1");
+        int liczba1 = scan.nextInt();
+        System.out.println("Podaj liczbę 2");
+        int liczba2 = scan.nextInt();
+        System.out.println("Podaj liczbę 3");
+        int liczba3 = scan.nextInt();
+        System.out.println("Podaj liczbę 4");
+        int liczba4 = scan.nextInt();
+        System.out.println("Podaj liczbę 5");
+        int liczba5 = scan.nextInt();
+
+        scan.close();
 
         int[] tablica = new int[5];
 
-        tablica[0] = 1;
-        tablica[1] = 2;
-        tablica[2] = 3;
-        tablica[3] = 4;
-        tablica[4] = 5;
+        tablica[0] = liczba1;
+        tablica[1] = liczba2;
+        tablica[2] = liczba3;
+        tablica[3] = liczba4;
+        tablica[4] = liczba5;
+
+
 
         for (int zmienna : tablica){
-         System.out.print(zmienna + " ");
+         System.out.print(zmienna * 11 + " ");
         }
 
     }
