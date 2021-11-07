@@ -38,6 +38,22 @@ public class Main {
         c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
 
+        int[] tablica = new int[5];
+        tablica[0] = 1;
+        tablica[1] = 2;
+        tablica[2] = 3;
+        tablica[3] = 4;
+        tablica[4] = 5;
+
+    System.out.println(tablica[0]);
+    System.out.println(tablica[1]);
+    System.out.println(tablica[2]);
+    System.out.println(tablica[3]);
+    System.out.println(tablica[4]);
+
+
+
+
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
