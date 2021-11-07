@@ -25,6 +25,12 @@ public class Main {
         /*
         c) w trzeciej pętli return
         */
+        for (int i = 0; i < 5; i++) {
+            if (i == 2) {
+                return ;
+            }
+            System.out.println(i);
+        }
 
 
 
