@@ -9,6 +9,16 @@ public class Main {
          * (jesli tą liczbą jest 0 to przez 2 ostatnie) */
 
 
+/*
+        for (int i = 100; i > 0; i--) {
+
+            if (i % 2 == 0) {
+                System.out.println(i);
+
+            }
+        }
+*/
+
         /* zad.2 Napisz program który będzie uzupełniał tablicę 5-cio elementową int[] liczbami
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
          * za pomocą pętli forEach powiększone o 11 */
