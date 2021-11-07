@@ -34,11 +34,8 @@ public class Main {
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
-        b) jak wyżej tylko dla tablicy typu double[],
-        c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
-        */
 
-        int[] tablica = new int[5];
+          /* int[] tablica = new int[5];
         tablica[0] = 1;
         tablica[1] = 2;
         tablica[2] = 3;
@@ -50,6 +47,45 @@ public class Main {
 
          System.out.println(tablica[i]);
   }
+  */
+        /*
+        b) jak wyżej tylko dla tablicy typu double[],
+
+double[] tablica = new double[5];
+        tablica[0] = 1;
+        tablica[1] = 2;
+        tablica[2] = 3;
+        tablica[3] = 4;
+        tablica[4] = 5;
+
+        int i = 5;
+        while (i-- >= 0) {
+
+         System.out.println(tablica[i]);
+  }
+        */
+
+
+
+        /*
+
+        c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
+        */
+        int[] tablica = new int[5];
+        tablica[0] = 1;
+        tablica[1] = 2;
+        tablica[2] = 3;
+        tablica[3] = 4;
+        tablica[4] = 5;
+
+        int i = 5;
+        while (i-- >= 0) {
+
+            System.out.println(tablica[i]);
+        }
+
+
+
 
 
         /* zad.3
