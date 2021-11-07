@@ -10,6 +10,27 @@ public class Main {
         */
 
 
+       /*
+
+        iteorowanie w dół
+        int i = 10;
+        System.out.println("Wartość i to: " + i);
+
+        do {
+        System.out.println(i--);
+
+        } while (i >= 0);
+        */
+/*
+        int i = 59392;
+        System.out.println("Wartość i to: " + i);
+
+        do {
+            System.out.println(i--);
+
+        } while (i % 92 == 0);
+*/
+
         /* zad 2
         a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
           przeiterować tablicę po elementach i wyswietlić, użyć pętli while
