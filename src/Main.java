@@ -45,13 +45,11 @@ public class Main {
         tablica[3] = 4;
         tablica[4] = 5;
 
-    System.out.println(tablica[0]);
-    System.out.println(tablica[1]);
-    System.out.println(tablica[2]);
-    System.out.println(tablica[3]);
-    System.out.println(tablica[4]);
+        int i = 5;
+        while (i-- >= 0) {
 
-
+         System.out.println(tablica[i]);
+  }
 
 
         /* zad.3
