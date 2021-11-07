@@ -90,7 +90,22 @@ double[] tablica = new double[5];
 
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
+
+        int i = 2;
+
+        while (true){
+       System.out.println(i);
+        }
+*/
+
+        /*
         b) a jak gdy damy false --> while(false)
+
+        int i = 2;
+
+        while (true){
+       System.out.println(i);
+        }
         */
 
 
