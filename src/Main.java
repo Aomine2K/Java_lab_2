@@ -27,10 +27,8 @@ public class Main {
          */
 
 
-        Set<Integer> liczby = new TreeSet<>();
-        for (int i = 0; i == 10; i++) {
-            liczby.add(Integer.parseInt(System.console().readLine()));
-        }
+
+
     }
 }
 
