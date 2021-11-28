@@ -20,11 +20,18 @@ public class Main {
           */
 
 
+
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
 
-    }
 
+        Set<Integer> liczby = new TreeSet<>();
+        for (int i = 0; i == 10; i++) {
+            liczby.add(Integer.parseInt(System.console().readLine()));
+        }
+    }
 }
+
+
